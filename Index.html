@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aditya Chaudhary</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
     <!--  Bootstrap css file  -->
@@ -80,7 +81,7 @@
 
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-banner">
-            <div class="container">
+            <div class="container" data-aos="slide-right">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
@@ -112,11 +113,11 @@
             <div class="container-fluid" id="about">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="about-image">
+                        <div class="about-image" data-aos="slide-right">
                             <img src="./img/about-us.png" alt="About us" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 about-title">
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="slide-left">
                         <h2 class="text-uppercase pt-5">
                             <span>Let me</span>
                             <span>introduce</span>
@@ -136,7 +137,7 @@
                                 thing always drive me towards work.
                             </p>
                         </div>
-                        <a href="Curr Resume.pdf" type="button" class="btn button primary-button text-uppercase"
+                        <a href="Curr Resume.pdf" type="button" class="btn button primary-button text-uppercase" target="_blank"
                             download>Download cv</a>
                     </div>
                 </div>
@@ -149,10 +150,9 @@
         <!-- =========================  Education Area =============================== -->
 
         <section class="education-field">
-            <div id="education">
+            <div id="education" data-aos="slide-right">
                 <h1 class="title-text text-uppercase"><em>Education</em></h1>
-                <hr>
-                <div class="education-college">
+                <div class="education-college" id="e-one">
                     <img class="hbtu" src="img/hbtu.png" alt="Harcourt Butler Technical University">
                     <div class="education-college-data">
                         <h2><i>Harcourt Butler Technical University</i></h2>
@@ -161,9 +161,12 @@
                         <p class="para">CGPA: 7.761</p>
                     </div>
                 </div>
-                <hr>
-                <div class="education-school">
-                    <img class="spring" src="img/milton_logo.jfif" >
+                <div id="one">
+                    <hr>
+                </div>
+
+                <div class="education-school" id="e-two">
+                    <img class="spring" src="img/milton_logo.jfif">
                     <div class="eduation-school-data">
                         <h2><i>Milton Educational Academy</i></h2>
                         <p class="para"><b>Higher Secondary School</b></p>
@@ -172,9 +175,12 @@
                         <p class="para">Science Stream District Topper</p>
                     </div>
                 </div>
-                <hr>
-                <div class="education-school">
-                    <img class="spring" src="img/dps.jfif" >
+                <div id="two">
+                    <hr>
+                </div>
+
+                <div class="education-school" id="e-three">
+                    <img class="spring" src="img/dps.jfif">
                     <div class="eduation-school-data">
                         <h2><i>Dashmesh Public School</i></h2>
                         <p class="para"><b>Secondary School</b></p>
@@ -182,7 +188,10 @@
                         <p class="para">CGPA: 9.8 </p>
                     </div>
                 </div>
-                <hr>
+                <div id="three">
+                    <hr>
+                </div>
+
             </div>
         </section>
 
@@ -191,7 +200,9 @@
         <!--  ======================== Brand Area ==============================  -->
 
         <section class="brand-area">
-            <div class="container-fluid">
+            <div class="container-fluid" data-aos="zoom-in-left">
+                <h1 class="title-text text-uppercase"><em>Skills</em></h1>
+
                 <div class="row">
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
@@ -304,7 +315,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <!-- <hr> -->
         </section>
 
 
@@ -315,7 +326,7 @@
         <section class="services-area">
             <div class="container" id="coding">
                 <div class="row">
-                    <div class="col-lg-12 text-center services-title">
+                    <div class="col-lg-12 text-center services-title" data-aos="flip-left">
                         <h1 class="text-uppercase title-text">My Online Coding Profiles</h1>
                         <p class="para">
                             I am practicing for the last three years on various online coding platforms.
@@ -324,14 +335,14 @@
                     </div>
                 </div>
                 <div class="container services-list">
-                    <div class="row">
+                    <div class="row" data-aos="zoom-out">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/codeforces.png" alt="Services-3">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://codeforces.com/profile/AdityaChaudhary">
+                                    <a href="https://codeforces.com/profile/AdityaChaudhary" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">Codeforces</h5>
                                     </a>
                                     <p class="card-text text-secondary">
@@ -348,7 +359,7 @@
                                     <img src="./img/codechef.png" alt="Services-4">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://www.codechef.com/users/adityach_16">
+                                    <a href="https://www.codechef.com/users/adityach_16" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">codechef</h5>
                                     </a>
                                     <p class="card-text text-secondary">
@@ -365,7 +376,7 @@
                                     <img src="./img/Leetcode.png" alt="Services-2">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://leetcode.com/AdityaChaudhary16/">
+                                    <a href="https://leetcode.com/AdityaChaudhary16/" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">LeetCode</h5>
                                     </a>
                                     <p class="card-text text-secondary">
@@ -382,7 +393,7 @@
                                     <img src="./img/atcoder.png" alt="Services-1">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://atcoder.jp/users/aditya_23">
+                                    <a href="https://atcoder.jp/users/aditya_23" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">Atcoder</h5>
                                     </a>
                                     <p class="card-text text-secondary">
@@ -393,19 +404,20 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row" data-aos="zoom-out">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/hackerRank.png" alt="Services-2">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://www.hackerrank.com/adityachaudhary5">
+                                    <a href="https://www.hackerrank.com/adityachaudhary5" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">HackerRank</h5>
                                     </a>
                                     <p class="card-text text-secondary">
-                                    <p>5 star in C++.</p>
-                                    <p>certificate : Problem Solving.</p>
-                                    <p>username : adityachaudhary5</p>
+                                    <p>5 star in C++.<br>Certificate : Problem Solving.<br>Username : adityachaudhary5
+                                    </p>
                                     </p>
                                 </div>
                             </div>
@@ -416,11 +428,11 @@
                                     <img src="./img/gfg.jfif" alt="Services-2">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://auth.geeksforgeeks.org/user/adityachaudhary2242/profile">
+                                    <a href="https://auth.geeksforgeeks.org/user/adityachaudhary2242/profile" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">GFG</h5>
                                     </a>
                                     <p class="card-text text-secondary">
-                                    <p>More than 100 problems are solved</p>
+                                        <!-- <p>More than 100 problems are solved</p> -->
                                     <p>username : adityachaudhary2242</p>
                                     </p>
                                 </div>
@@ -432,7 +444,7 @@
                                     <img src="./img/stopstalk.png" alt="Services-2">
                                 </div>
                                 <div class="card-body text-center">
-                                    <a href="https://www.stopstalk.com/user/profile/AdityaChaudhary">
+                                    <a href="https://www.stopstalk.com/user/profile/AdityaChaudhary" target=”_blank”>
                                         <h5 class="card-title text-uppercase font-roboto">StopStalk</h5>
                                     </a>
                                     <p class="card-text text-secondary">
@@ -445,7 +457,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <!-- <hr> -->
         </section>
 
         <!--  ====================== End Services Area =============================  -->
@@ -456,7 +468,7 @@
 
             <h1 class="heading"> My <span>Projects</span> </h1>
 
-            <div class="box-container">
+            <div class="box-container" data-aos="zoom-in">
 
                 <div class="box">
                     <img src="./img/img5.jpg" alt="">
@@ -470,16 +482,16 @@
                             the user.
                         </p>
                         <div class="pro-btn-grp">
-                            <a href="https://adityachaudhary23.github.io/Weather-App/" target=”_blank”><button
+                            <a href="https://github.com/adityachaudhary23/Weather-App" target=”_blank”><button
                                     class="pro-btn github btn">github</button></a>
-                            <a href=""><button class="pro-btn live btn">live</button></a>
+                            <a href="https://adityachaudhary23.github.io/Weather-App/" target=”_blank”><button
+                                    class="pro-btn live btn">live</button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="./img/todo.png"
-                        alt="">
+                    <img src="./img/todo.png" alt="">
                     <div class="pro-content">
                         <h1 class="pro-title heading"><span id="second-pro">To-Do List</span></h1>
                         <p class="pro-info ">
@@ -488,9 +500,9 @@
                             • Stores to-do Items in firebase database.
                         </p>
                         <div class="pro-btn-grp">
-                            <a href="https://practical-euclid-42afaa.netlify.app/"><button
+                            <a href="https://github.com/adityachaudhary23/Todos" target=”_blank”><button
                                     class="pro-btn github btn">github</button></a>
-                            <a href=""><button class="pro-btn live btn">live</button></a>
+                            <a href="https://practical-euclid-42afaa.netlify.app/" target=”_blank”><button class="pro-btn live btn">live</button></a>
                         </div>
                     </div>
                 </div>
@@ -506,9 +518,9 @@
                             • Use Javascript to listen to the event that can be a key press or mouse click.
                         </p>
                         <div class="pro-btn-grp">
-                            <a href="https://adityachaudhary23.github.io/Ping-Pong-Game/"><button
+                            <a href="https://github.com/adityachaudhary23/Ping-Pong-Game" target=”_blank”><button
                                     class="pro-btn github btn">github</button></a>
-                            <a href=""><button class="pro-btn live btn">live</button></a>
+                            <a href="https://adityachaudhary23.github.io/Ping-Pong-Game/" target=”_blank”><button class="pro-btn live btn">live</button></a>
                         </div>
                     </div>
                 </div>
@@ -519,7 +531,7 @@
 
         <!--  ========================== Subscribe me Area ============================  -->
         <section class="subscribe-us-area">
-            <div class="container subscribe" id="contact">
+            <div class="container subscribe" id="contact" data-aos="slide-left">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
                         <h4 class="text-uppercase">Want to hire me ...</h4>
@@ -534,7 +546,7 @@
                             </div>
                             <div class="col">
                                 <div class="btn-submit">
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -549,27 +561,31 @@
     <!--  ======================= End Main Area ================================ -->
 
     <footer class="footer-area">
-        <div class="container">
+        <div class="container" data-aos="slide-right">
             <div class="">
                 <div class="site-logo text-center py-4">
-                    <a href="#"><img src="./img/ADITYA.jpg" alt="logo"></a>
+                    <a href="#"><img class="navbar-image" src="./img/ADITYA.jpg" alt="logo"></a>
                 </div>
                 <div class="social text-center">
                     <h5 class="text-uppercase">Follow me</h5>
-                    <a href="https://www.instagram.com/chaudhary.aditya_/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/aditya-chaudhary-1b99691ab/"><i
+                    <a href="https://www.instagram.com/chaudhary.aditya_/" target=”_blank”><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-chaudhary-1b99691ab/" target=”_blank”><i
                             class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="copyrights text-center">
                     <p class="para">
                         Copyright ©2022 All rights reserved | This portfolio site belongs to
-                        <a href="https://www.instagram.com/chaudhary.aditya_/"><span
+                        <a href="https://www.instagram.com/chaudhary.aditya_/" target=”_blank”><span
                                 style="color: var(--primary-color);">Aditya Chaudhary</span></a>
                     </p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <button type="button" onClick="window.location.reload();"> <a href="#"><img id="upicon"
+                src="node_modules/bootstrap-icons/icons/arrow-up-circle-fill.svg" alt=""> </a> </button>
+
 
 
     <!--  Jquery js file  -->
@@ -590,6 +606,90 @@
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 800, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
+    <script>
+        document.getElementById("e-one").addEventListener("mouseover", mouseOver1);
+        document.getElementById("e-one").addEventListener("mouseout", mouseOut1);
+        document.getElementById("e-two").addEventListener("mouseover", mouseOver2);
+        document.getElementById("e-two").addEventListener("mouseout", mouseOut2);
+        document.getElementById("e-three").addEventListener("mouseover", mouseOver3);
+        document.getElementById("e-three").addEventListener("mouseout", mouseOut3);
+
+        document.getElementById("one").style.width = "80%";
+        document.getElementById("one").style.background = "#dddddd";
+        document.getElementById("two").style.width = "80%";
+        document.getElementById("two").style.background = "#dddddd";
+        document.getElementById("three").style.width = "80%";
+        document.getElementById("three").style.background = "#dddddd";
+
+        function mouseOver1() {
+            document.getElementById("one").style.width = "100%";
+            document.getElementById("one").style.background = "var(--primary-color2)";
+            document.getElementById("one").style.transition = "500ms";
+        }
+
+        function mouseOut1() {
+            document.getElementById("one").style.width = "80%";
+            document.getElementById("one").style.background = "#dddddd";
+
+        }
+
+        function mouseOver2() {
+            document.getElementById("two").style.width = "100%";
+            document.getElementById("two").style.background = "var(--primary-color2)";
+            document.getElementById("two").style.transition = "500ms";
+        }
+
+        function mouseOut2() {
+            document.getElementById("two").style.width = "80%";
+            document.getElementById("two").style.background = "#dddddd";
+
+        }
+        function mouseOver3() {
+            document.getElementById("three").style.width = "100%";
+            document.getElementById("three").style.background = "var(--primary-color2)";
+            document.getElementById("three").style.transition = "500ms";
+        }
+
+        function mouseOut3() {
+            document.getElementById("three").style.width = "80%";
+            document.getElementById("three").style.background = "#dddddd";
+
+        }
+
+        function refresh() {
+            window.location.reload();
+        }
+    </script>
 
 </body>
 
